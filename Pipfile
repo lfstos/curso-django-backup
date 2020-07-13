@@ -6,11 +6,12 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 pytest-cov = "*"
+pytest-django = "*"
+codecov = "*"
 
 [packages]
 django = "*"
 gunicorn = "*"
-pytest-django = "*"
 
 [requires]
 python_version = "3.8"
