@@ -11,9 +11,12 @@ env:
     - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
-  - pip install pipenv  codecov
+  - pip install pipenv
   - pipenv sync -d
 
 script:
   - pipenv run flake8 .
-  - pipenv run pytest
+  - pipenv run pytest --cov=pypro
+
+after_success:
+  - pipenv run codecov
