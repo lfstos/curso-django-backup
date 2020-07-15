@@ -16,6 +16,8 @@ python-decouple = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
 dj3-cloudinary-storage = "*"
+install = "*"
+collectfast = "*"
 
 [requires]
 python_version = "3.8"
