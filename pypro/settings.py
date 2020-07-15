@@ -30,6 +30,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
+COLLECTFAST_ENABLED = config('COLLECTFAST_ENABLED', cast=bool)
+
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
@@ -41,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'collectfast',
     'django.contrib.staticfiles',
     'cloudinary_storage',
     'cloudinary',
@@ -125,12 +128,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
-
-# Configuração de ambiente de desenvolvimento
 
 # STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
