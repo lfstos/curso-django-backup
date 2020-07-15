@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0feeadfa30f6a36c30c5ad96f3834017ca43fddf86c2ed78320e7e796a31d2b5"
+            "sha256": "e6f551c671155ba20f0178ede2888d72701f2731451576b95296ad3c85adf222"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,14 @@
             ],
             "version": "==1.21.1"
         },
+        "collectfast": {
+            "hashes": [
+                "sha256:2f6abc8cab7ec5114a7a9a3660ab629ec142556957220aa82857dc9b4381490d",
+                "sha256:e716b2234ab50b5f1010b0d78c3fae8c6aebdb8b7c66ef5568503c33c1a5e19a"
+            ],
+            "index": "pypi",
+            "version": "==2.2.0"
+        },
         "dj-database-url": {
             "hashes": [
                 "sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163",
@@ -68,6 +76,14 @@
             "index": "pypi",
             "version": "==3.0.8"
         },
+        "django-storages": {
+            "hashes": [
+                "sha256:3103991c2ee8cef8a2ff096709973ffe7106183d211a79f22cf855f33533d924",
+                "sha256:a59e9923cbce7068792f75344ed7727021ee4ac20f227cf17297d0d03d141e91"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.9.1"
+        },
         "gunicorn": {
             "hashes": [
                 "sha256:1904bb2b8a43658807108d59c3f3d56c2b6121a701161de0ddf9ad140073c626",
@@ -83,6 +99,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.10"
+        },
+        "install": {
+            "hashes": [
+                "sha256:d6d927c47b82f0183557830b98dcc36f3520489c66c3a2eda0c898b718e393b2",
+                "sha256:fe75019b45eb1febc9232f452861e7693efeadd554f18cdc4ff647f29349b145"
+            ],
+            "index": "pypi",
+            "version": "==1.3.3"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -157,6 +181,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.3.1"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:6e95524d8a547a91e08f404ae485bbb71962de46967e1b71a0cb89af24e761c5",
+                "sha256:79ee589a3caca649a9bfd2a8de4709837400dfa00b6cc81962a1e6a1815969ae",
+                "sha256:f8d2bd89d25bc39dabe7d23df520442fa1d8969b82544370e03d88b5a591c392"
+            ],
+            "version": "==3.7.4.2"
         },
         "urllib3": {
             "hashes": [
