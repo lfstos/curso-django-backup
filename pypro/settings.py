@@ -30,8 +30,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-COLLECTFAST_ENABLED = config('COLLECTFAST_ENABLED', cast=bool)
-# COLLECTFAST_ENABLED = False
+#COLLECTFAST_ENABLED = config('COLLECTFAST_ENABLED', cast=bool)
+COLLECTFAST_ENABLED = False
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
